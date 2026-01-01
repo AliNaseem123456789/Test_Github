@@ -1,0 +1,12 @@
+#initialize Git
+git init
+git add .
+git commit -m "commit"
+git remote add origin https://github.com/ALi
+git branch -M main
+git push -u origin main
+
+#create new Branch
+git checkout -b feature/login
+#push to new branch
+git push -u origin feature/login
