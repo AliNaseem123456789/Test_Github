@@ -6,7 +6,14 @@ git remote add origin https://github.com/ALi
 git branch -M main
 git push -u origin main
 
-#create new Branch
+#check branch
+git branch
+
+#create bew branch
+git branch Third_branch
+
+#create new Branch AND swithc to it
 git checkout -b feature/login
+
 #push to new branch(use git add . and git commit first)
 git push -u origin feature/login
