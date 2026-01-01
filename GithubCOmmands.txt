@@ -8,5 +8,5 @@ git push -u origin main
 
 #create new Branch
 git checkout -b feature/login
-#push to new branch
+#push to new branch(use git add . and git commit first)
 git push -u origin feature/login
