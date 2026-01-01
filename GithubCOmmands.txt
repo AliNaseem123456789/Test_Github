@@ -10,3 +10,5 @@ git push -u origin main
 git checkout -b feature/login
 #push to new branch
 git push -u origin feature/login
+
+#A new branch starts with the exact same code as the branch you created it from.
